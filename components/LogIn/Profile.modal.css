@@ -1,0 +1,59 @@
+
+
+.actions {
+  text-align: right;
+  margin-top: 25px;
+}
+
+.actions_left {
+  text-align: left;
+}
+.actions p {
+  text-align: center;
+  color: #5a1a01;
+}
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+
+
+.actions button:focus {
+  outline: none;
+}
+
+.actions button:disabled,
+.actions button:focus:disabled,
+.actions button:hover:disabled,
+.actions button:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+
+.actions .button--alt {
+  color: #8a2b06;
+}
+
+.actions .button--alt-left {
+  margin-right: 190px;
+}
+.actions .button {
+  background-color: #8a2b06;
+  color: white;
+}
+
